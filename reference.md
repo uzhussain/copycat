@@ -54,6 +54,17 @@ rg "Header|Navbar|Navigation|Menu|Dropdown" app pages src components
 - Separate public and authenticated layouts.
 - Add `loading.tsx`, `error.tsx`, `not-found.tsx` only if needed for parity.
 - Avoid importing legacy global CSS into new layouts.
+ - Prefer shadcn blocks for scaffolded views:
+   - `sidebar-16` or `sidebar-01`
+   - `dashboard-01`
+   - `login-04`
+   - `signup-02`
+
+## Global CSS + layout baseline (shadcn preset)
+Use this preset to initialize global CSS and layout guidance:
+```
+pnpm dlx shadcn@latest create --preset "https://ui.shadcn.com/init?base=radix&style=nova&baseColor=zinc&theme=orange&iconLibrary=lucide&font=geist&menuAccent=bold&menuColor=inverted&radius=none&template=next&rtl=false" --template next
+```
 
 ## Landing header dropdown
 - Label: `landingDropdownLabel`

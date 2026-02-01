@@ -16,6 +16,8 @@ The goal is a clean, minimal base with core navigation and routes. Do not carry 
 - Keep layouts, navigation, and auth gates minimal and composable.
 - Leave deprecated or low-value views behind.
 - Use shadcn shell/blocks for scaffolded views to aid early testing.
+ - Prefer shadcn starter blocks for shell, dashboard, and auth views.
+- Use the shadcn create preset for global CSS and layout baselines.
 
 ### Why this matters
 

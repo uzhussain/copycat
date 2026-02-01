@@ -14,7 +14,9 @@ Copycat doesn't clone your mess. It maps public vs authenticated views, confirms
 - Runs a naming audit to dedupe role variants into one canonical view
 - Renames old, messy view names into clean ones
 - Builds a new, isolated platform folder with core routes only
+- Uses shadcn starter blocks for clean, testable scaffolds
 - Adds a simple entry link from the existing landing page
+- Sets a modern shadcn global CSS baseline for the new platform
 
 ### What it does not do
 - It does **not** migrate every legacy screen

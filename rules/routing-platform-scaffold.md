@@ -34,6 +34,10 @@ app/
 - Scaffold with shadcn UI shell: sidebar, header, and section containers.
 - Use shadcn blocks for auth views (sign-in, sign-up) via MCP.
 - For role-gated views, include a lightweight role switcher in the UI for early testing.
+- Prefer these shadcn blocks for scaffolding (via MCP or CLI):
+  - Shell: `sidebar-16` (or `sidebar-01` as a lighter alt)
+  - Dashboard: `dashboard-01`
+  - Auth: `login-04`, `signup-02`
 
 ### Why this matters
 
