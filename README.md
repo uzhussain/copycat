@@ -1,6 +1,6 @@
-## Start Fresh Without the Chaos
+## Copycat: Start Fresh Without the Hairballs
 
-This skill does the legwork of sorting what your app actually needs, so you can leave the clutter behind and start from a clean, modern boilerplate. It finds your public vs authenticated views, confirms what’s still relevant, and scaffolds a fresh platform area with core navigation — no forced full migration.
+Copycat doesn't clone your mess. It maps public vs authenticated views, confirms what stays, and scaffolds a clean shadcn platform in Next.js. You copy the good parts, not the chaos.
 
 ### Who it’s for
 - Designers who want a clean, modern starting point
