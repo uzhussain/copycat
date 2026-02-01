@@ -28,5 +28,7 @@ This skill does the legwork of sorting what your app actually needs, so you can 
 5) **Link** it from the existing landing header
 
 ### Where to look next
-- `SKILL.md` for the full workflow and priorities
+- `SKILL.md` for the workflow overview and checkpoints
+- `reference.md` for scans, mapping tips, and gotchas
+- `examples.md` for inventory and scaffold examples
 - `rules/` for focused rules you can follow step by step
