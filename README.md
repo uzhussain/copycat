@@ -25,7 +25,7 @@ Copycat doesn't clone your mess. It maps public vs authenticated views, confirms
 1) **Discover** what views exist and who can access them
 2) **Audit** naming to dedupe role variants and set canonical names
 3) **Confirm** which views are still needed (and rename them cleanly)
-4) **Name** your new platform and route segment
+4) **Derive** the platform name and route segment from existing copy
 5) **Scaffold** a clean boilerplate under `app/<platform-segment>`
 6) **Link** it from the existing landing header
 

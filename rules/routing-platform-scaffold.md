@@ -31,6 +31,9 @@ app/
 - Use explicit role segments only when necessary (e.g., `app/<platform-segment>/(app)/admin/...`).
 - If roles share a page, use a single route and guard access within the layout/page.
 - Add `loading.tsx`, `error.tsx`, and `not-found.tsx` as needed for UX parity.
+- Scaffold with shadcn UI shell: sidebar, header, and section containers.
+- Use shadcn blocks for auth views (sign-in, sign-up) via MCP.
+- For role-gated views, include a lightweight role switcher in the UI for early testing.
 
 ### Why this matters
 

@@ -10,7 +10,7 @@ description: Inventory a Next.js app's marketing and dashboard views by authenti
 2) Inventory routes, auth boundaries, and roles.
 3) Run a route naming audit (librarian pass).
 4) Confirm the view list and new names with the user.
-5) Confirm platform naming inputs.
+5) Derive the platform name and route segment from existing copy.
 6) Scaffold `app/<platform-segment>` public/app layouts.
 7) Add the landing header dropdown link.
 8) Smoke-test public and auth routes.
@@ -27,7 +27,7 @@ Does not:
 - Change auth logic or delete old code.
 
 ## Required inputs
-Confirm before scaffolding:
+Derive before scaffolding (do not ask the user):
 - `platformName`
 - `platformRouteSegment`
 - `platformFolderName` (default: `platformRouteSegment`)
@@ -37,7 +37,7 @@ Confirm before scaffolding:
 ## Rule categories by priority
 | Priority | Category | Rules |
 | --- | --- | --- |
-| 1 | Discovery & confirmation | `rules/discovery-auth-views`, `rules/route-naming-audit`, `rules/confirm-view-names` |
+| 1 | Discovery & confirmation | `rules/discovery-auth-views`, `rules/route-naming-audit`, `rules/confirm-view-names`, `rules/platform-naming-derive` |
 | 2 | Platform scaffold & boilerplate | `rules/routing-platform-scaffold`, `rules/boilerplate-first` |
 | 3 | Coexistence & entry | `rules/coexistence-legacy`, `rules/landing-header-dropdown` |
 | 4 | Naming & testing | `rules/naming-clean`, `rules/test-auth-flows` |
@@ -98,7 +98,7 @@ Use the latest stable versions of `next`, `react`, `tailwindcss`, and `shadcn/ui
 - Scans, mapping tips, and gotchas: `reference.md`
 - Example inventories and scaffolds: `examples.md`
 - Rule index:
-  - Priority 1: `rules/discovery-auth-views`, `rules/route-naming-audit`, `rules/confirm-view-names`
+  - Priority 1: `rules/discovery-auth-views`, `rules/route-naming-audit`, `rules/confirm-view-names`, `rules/platform-naming-derive`
   - Priority 2: `rules/routing-platform-scaffold`, `rules/boilerplate-first`
   - Priority 3: `rules/coexistence-legacy`, `rules/landing-header-dropdown`
   - Priority 4: `rules/naming-clean`, `rules/test-auth-flows`

@@ -14,6 +14,7 @@ Add lightweight smoke checks to ensure `/<platform-segment>` routes load and aut
 - Public routes load unauthenticated.
 - Authenticated routes redirect when unauthenticated.
 - Role-gated routes block unauthorized roles.
+- Role switcher (if present) toggles view state without breaking navigation.
 - Landing dropdown link navigates to `/<platform-segment>`.
 - No console errors on load.
 

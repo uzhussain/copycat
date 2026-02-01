@@ -15,6 +15,7 @@ The goal is a clean, minimal base with core navigation and routes. Do not carry 
 - Favor a small, well-structured route set over feature parity.
 - Keep layouts, navigation, and auth gates minimal and composable.
 - Leave deprecated or low-value views behind.
+- Use shadcn shell/blocks for scaffolded views to aid early testing.
 
 ### Why this matters
 

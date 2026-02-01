@@ -45,6 +45,10 @@ rg "Header|Navbar|Navigation|Menu|Dropdown" app pages src components
 - Prefer domain nouns/outcomes: `AccountOverview`, `BillingSettings`.
 - Route segments in kebab-case; component names in PascalCase.
 
+## Platform naming derivation
+- Prefer stable copy sources (terms, privacy, footer, hero headline).
+- Use a short, brand-based segment; append `-v2` only if collision exists.
+
 ## Scaffold notes
 - Keep new routes under `app/<platform-segment>`.
 - Separate public and authenticated layouts.
