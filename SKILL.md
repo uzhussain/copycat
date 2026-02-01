@@ -8,11 +8,12 @@ description: Inventory a Next.js app's marketing and dashboard views by authenti
 ## Quick start
 1) Identify router type and entry points.
 2) Inventory routes, auth boundaries, and roles.
-3) Confirm the view list and new names with the user.
-4) Confirm platform naming inputs.
-5) Scaffold `app/<platform-segment>` public/app layouts.
-6) Add the landing header dropdown link.
-7) Smoke-test public and auth routes.
+3) Run a route naming audit (librarian pass).
+4) Confirm the view list and new names with the user.
+5) Confirm platform naming inputs.
+6) Scaffold `app/<platform-segment>` public/app layouts.
+7) Add the landing header dropdown link.
+8) Smoke-test public and auth routes.
 
 ## Scope
 Does:
@@ -36,7 +37,7 @@ Confirm before scaffolding:
 ## Rule categories by priority
 | Priority | Category | Rules |
 | --- | --- | --- |
-| 1 | Discovery & confirmation | `rules/discovery-auth-views`, `rules/confirm-view-names` |
+| 1 | Discovery & confirmation | `rules/discovery-auth-views`, `rules/route-naming-audit`, `rules/confirm-view-names` |
 | 2 | Platform scaffold & boilerplate | `rules/routing-platform-scaffold`, `rules/boilerplate-first` |
 | 3 | Coexistence & entry | `rules/coexistence-legacy`, `rules/landing-header-dropdown` |
 | 4 | Naming & testing | `rules/naming-clean`, `rules/test-auth-flows` |
@@ -57,6 +58,8 @@ Status:
 - Recreate in new platform: YES / NO
 - Rename required: YES / NO
 - New name (if renamed): <confirmed title>
+ - Active in UI navigation: YES / NO
+ - Evidence of activity: <nav link | redirect | deep link | comment>
 ```
 
 ## Rules (must follow)
@@ -95,7 +98,7 @@ Use the latest stable versions of `next`, `react`, `tailwindcss`, and `shadcn/ui
 - Scans, mapping tips, and gotchas: `reference.md`
 - Example inventories and scaffolds: `examples.md`
 - Rule index:
-  - Priority 1: `rules/discovery-auth-views`, `rules/confirm-view-names`
+  - Priority 1: `rules/discovery-auth-views`, `rules/route-naming-audit`, `rules/confirm-view-names`
   - Priority 2: `rules/routing-platform-scaffold`, `rules/boilerplate-first`
   - Priority 3: `rules/coexistence-legacy`, `rules/landing-header-dropdown`
   - Priority 4: `rules/naming-clean`, `rules/test-auth-flows`

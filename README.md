@@ -11,7 +11,8 @@ Copycat doesn't clone your mess. It maps public vs authenticated views, confirms
 ### What it does (in human terms)
 - Separates public pages from authenticated ones
 - Identifies role-based views and confirms what to keep
-- Helps rename old, messy view names into clean ones
+- Runs a naming audit to dedupe role variants into one canonical view
+- Renames old, messy view names into clean ones
 - Builds a new, isolated platform folder with core routes only
 - Adds a simple entry link from the existing landing page
 
@@ -22,10 +23,11 @@ Copycat doesn't clone your mess. It maps public vs authenticated views, confirms
 
 ### Quick start
 1) **Discover** what views exist and who can access them
-2) **Confirm** which views are still needed (and rename them cleanly)
-3) **Name** your new platform and route segment
-4) **Scaffold** a clean boilerplate under `app/<platform-segment>`
-5) **Link** it from the existing landing header
+2) **Audit** naming to dedupe role variants and set canonical names
+3) **Confirm** which views are still needed (and rename them cleanly)
+4) **Name** your new platform and route segment
+5) **Scaffold** a clean boilerplate under `app/<platform-segment>`
+6) **Link** it from the existing landing header
 
 ### Where to look next
 - `SKILL.md` for the workflow overview and checkpoints

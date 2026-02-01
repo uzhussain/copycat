@@ -19,6 +19,7 @@ Inventory how users enter the app, which routes are public vs authenticated, and
 - Locate router config, route groups, and menu definitions.
 - Identify marketing pages vs dashboard/app shell.
 - Record public routes, protected routes, and role-gated paths.
+ - Flag routes that are commented out or removed from navigation.
 
 3) Identify auth/guard mechanisms:
 - Auth hooks/HOCs (`useSession`, `useAuth`, `RequireAuth`, `withAuth`), middleware, cookie checks.
@@ -27,6 +28,10 @@ Inventory how users enter the app, which routes are public vs authenticated, and
 4) Capture role metadata:
 - Collect roles/permissions objects, menu-role mappings, guard functions.
 - Track where role data is derived (JWT, session, DB, feature flags).
+ 
+5) Determine active vs deprecated:
+- Mark views that are reachable via navigation, deep links, or redirects.
+- Treat commented-out or removed nav items as inactive by default.
 
 ### Why this matters
 
@@ -37,3 +42,4 @@ Inventory how users enter the app, which routes are public vs authenticated, and
 
 - `useEffect` redirects can hide missing server guards; document and preserve.
 - Magic-link or invite flows often rely on query params; do not break them.
+ - Commented-out routes in nav or config are usually deprecated; do not prioritize them.

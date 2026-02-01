@@ -16,7 +16,7 @@ For each role, confirm:
 - Authenticated views.
 - Role-specific views and the gating location.
 - Which views are deprecated or unused.
-- The new name for each view to recreate.
+- The canonical name for each view (from the route naming audit).
 
 ### Output template
 

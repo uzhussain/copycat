@@ -22,6 +22,12 @@ rg "Header|Navbar|Navigation|Menu|Dropdown" app pages src components
 - Authenticated (dashboard) views: home, analytics, management, settings, billing.
 - Role-specific views: admin-only, manager-only, analyst-only, etc.
 - Record both menu labels and actual routes to avoid stale naming.
+## Route naming audit (librarian pass)
+- Extract labels from routes, headings, nav, and containers.
+- Collapse role variants into one canonical name when possible.
+- Prefer domain nouns/outcomes; avoid `New*`, `*V2`, `Temp*`.
+- Only escalate to user when evidence conflicts.
+
 
 ## Auth and role notes
 - Track where auth gates occur (server layouts, middleware, client effects).

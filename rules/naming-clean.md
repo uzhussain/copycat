@@ -15,6 +15,7 @@ All new platform views must use confirmed, clean names. Do not carry forward leg
 - Use domain nouns and outcomes (e.g., `AccountOverview`, `BillingSettings`).
 - Route segments in kebab-case; component names in PascalCase.
 - If a view is deprecated, do not recreate it.
+ - Prefer canonical names from the route naming audit.
 
 ### Why this matters
 
