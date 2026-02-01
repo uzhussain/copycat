@@ -26,8 +26,3 @@ Guidance and rule set to inventory role-based views, confirm naming, and build a
 - **Coexistence**: keep legacy UI isolated and prevent style bleed.
 - **Landing entry**: dropdown link to the new platform.
 - **Testing**: basic smoke checks for auth and routing.
-
-### License
-MIT.
-
-For full skill details see `.cursor/skills/nextjs-auth-view-discovery/SKILL.md`.
