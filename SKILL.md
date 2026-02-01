@@ -33,6 +33,14 @@ Confirm before scaffolding:
 - `landingDropdownLabel` (default: `platformName`)
 - `landingDropdownItemLabel` (default: `platformName`)
 
+## Rule categories by priority
+| Priority | Category | Rules |
+| --- | --- | --- |
+| 1 | Discovery & confirmation | `rules/discovery-auth-views`, `rules/confirm-view-names` |
+| 2 | Platform scaffold & boilerplate | `rules/routing-platform-scaffold`, `rules/boilerplate-first` |
+| 3 | Coexistence & entry | `rules/coexistence-legacy`, `rules/landing-header-dropdown` |
+| 4 | Naming & testing | `rules/naming-clean`, `rules/test-auth-flows` |
+
 ## Output: view inventory template
 ```
 UserRole: <role name>
