@@ -1,28 +1,32 @@
-## Next.js Auth View Discovery + Clean Platform Scaffold Skill
+## Start Fresh Without the Chaos
 
-Guidance and rule set to inventory role-based views, confirm naming, and build a clean shadcn-based platform scaffold without fully migrating legacy UI. Focuses on authenticated vs unauthenticated views, role gating, minimal core navigation/routes, coexistence boundaries, and a new platform entry in the landing header.
+This skill does the legwork of sorting what your app actually needs, so you can leave the clutter behind and start from a clean, modern boilerplate. It finds your public vs authenticated views, confirms what’s still relevant, and scaffolds a fresh platform area with core navigation — no forced full migration.
 
-### What’s inside
-- `SKILL.md` — overview, priorities, discovery order, naming inputs, and rule index.
-- `rules/` — focused rules for discovery, confirmation, platform scaffold, boilerplate-first scope, coexistence, landing dropdown, naming, and testing.
+### Who it’s for
+- Designers who want a clean, modern starting point
+- Engineers who want clarity on routes, roles, and structure
+- Product managers who need a real inventory of what’s still in use
+- Business owners who want a new platform without legacy baggage
 
-### When to use
-- You have a Next.js app with marketing + dashboard views and unclear role-based routing.
-- You need a clean platform scaffold with shadcn components, not a full migration.
-- You want a confirmed view list and naming plan before building new routes.
+### What it does (in human terms)
+- Separates public pages from authenticated ones
+- Identifies role-based views and confirms what to keep
+- Helps rename old, messy view names into clean ones
+- Builds a new, isolated platform folder with core routes only
+- Adds a simple entry link from the existing landing page
 
-### Quick start (conceptual)
-1) **Discover**: map routes, auth boundaries, and role gates.
-2) **Confirm**: validate view list and new names per role.
-3) **Name platform**: confirm platform label, route segment, and folder name.
-4) **Scaffold**: create `app/<platform-segment>` with public/app layouts.
-5) **Entry**: add landing header dropdown link to the new platform.
-6) **Verify**: smoke-check public/auth routes and role gates.
+### What it does not do
+- It does **not** migrate every legacy screen
+- It does **not** change your auth logic
+- It does **not** delete old code
 
-### Key rule highlights
-- **Discovery & confirmation**: inventory public/auth/role views and confirm names.
-- **Platform scaffold**: isolated `app/<platform-segment>` with clean layouts.
-- **Boilerplate-first**: build minimal core routes, avoid full migration.
-- **Coexistence**: keep legacy UI isolated and prevent style bleed.
-- **Landing entry**: dropdown link to the new platform.
-- **Testing**: basic smoke checks for auth and routing.
+### Quick start
+1) **Discover** what views exist and who can access them
+2) **Confirm** which views are still needed (and rename them cleanly)
+3) **Name** your new platform and route segment
+4) **Scaffold** a clean boilerplate under `app/<platform-segment>`
+5) **Link** it from the existing landing header
+
+### Where to look next
+- `SKILL.md` for the full workflow and priorities
+- `rules/` for focused rules you can follow step by step
