@@ -17,6 +17,7 @@ During a phased rebuild, keep legacy UI and its CSS isolated from the new platfo
 - If legacy UI kits exist (Ant, Chakra, Material, etc.), do not use them in new routes.
 - Only use components from the new shadcn `components` directory or generated registry JSON.
 - Ensure overlay z-index values do not conflict across shells.
+- Enforce the new shadcn baseline styles; do not pull in any old stylesheets.
 
 ### Why this matters
 

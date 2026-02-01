@@ -24,6 +24,7 @@ Inventory how users enter the app, which routes are public vs authenticated, and
 3) Identify auth/guard mechanisms:
 - Auth hooks/HOCs (`useSession`, `useAuth`, `RequireAuth`, `withAuth`), middleware, cookie checks.
 - Note where redirects happen; keep logic intact.
+ - Identify auth provider (Clerk, BetterAuth, WorkOS, Supabase) and its route patterns.
 
 4) Capture role metadata:
 - Collect roles/permissions objects, menu-role mappings, guard functions.
@@ -32,6 +33,10 @@ Inventory how users enter the app, which routes are public vs authenticated, and
 5) Determine active vs deprecated:
 - Mark views that are reachable via navigation, deep links, or redirects.
 - Treat commented-out or removed nav items as inactive by default.
+ 
+6) Map auth routes to historical users:
+- Ensure new auth routes reflect the same user identity model and role set.
+- Mirror existing sign-in/sign-up paths where possible for testing parity.
 
 ### Why this matters
 

@@ -33,6 +33,7 @@ rg "Header|Navbar|Navigation|Menu|Dropdown" app pages src components
 - Track where auth gates occur (server layouts, middleware, client effects).
 - Preserve existing redirect behavior; do not change auth logic.
 - Note role source (session, JWT claims, DB, feature flags).
+ - Identify auth provider and route patterns; mirror for parity testing.
 
 ## Confirmation loop
 1) Present the full view inventory per role.
@@ -59,6 +60,7 @@ rg "Header|Navbar|Navigation|Menu|Dropdown" app pages src components
    - `dashboard-01`
    - `login-04`
    - `signup-02`
+ - Install shadcn components upfront via MCP, then reuse as needed.
 
 ## Global CSS + layout baseline (shadcn preset)
 Use this preset to initialize global CSS and layout guidance:

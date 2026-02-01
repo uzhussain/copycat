@@ -68,9 +68,12 @@ Status:
 - Clean naming: no `New*`, `*V2`, `Temp*`, legacy prefixes.
 - Legacy isolation: do not import legacy CSS into new platform layouts.
 - Shadcn-first: use shadcn components via CLI or MCP.
+- Shadcn install: use MCP to add all components upfront, then reuse.
 - Shadcn blocks: prefer `sidebar-16`/`sidebar-01`, `dashboard-01`, `login-04`, `signup-02`.
 - Global CSS baseline: use shadcn create preset (nova/zinc/orange).
 - No legacy UI kits: do not use Ant/Chakra/etc in new routes.
+- Auth parity: align new auth routes with historical provider and users.
+- No legacy CSS: enforce new baseline styles only.
 - Keep new routes under `app/<platform-segment>`.
 
 ## Platform structure

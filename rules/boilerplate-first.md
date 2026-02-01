@@ -18,6 +18,7 @@ The goal is a clean, minimal base with core navigation and routes. Do not carry 
 - Use shadcn shell/blocks for scaffolded views to aid early testing.
  - Prefer shadcn starter blocks for shell, dashboard, and auth views.
 - Use the shadcn create preset for global CSS and layout baselines.
+- Install shadcn components upfront via MCP; reuse from the components folder.
 
 ### Why this matters
 

@@ -38,6 +38,9 @@ app/
   - Shell: `sidebar-16` (or `sidebar-01` as a lighter alt)
   - Dashboard: `dashboard-01`
   - Auth: `login-04`, `signup-02`
+- When adding auth routes, align paths and identity model with existing provider
+  (Clerk/BetterAuth/WorkOS/Supabase) for parity testing.
+- Sidebar branding: use a minimal icon that fits the product name and avoids visual noise.
 
 ### Why this matters
 
