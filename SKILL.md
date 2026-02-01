@@ -70,6 +70,7 @@ Status:
 - Shadcn-first: use shadcn components via CLI or MCP.
 - Shadcn blocks: prefer `sidebar-16`/`sidebar-01`, `dashboard-01`, `login-04`, `signup-02`.
 - Global CSS baseline: use shadcn create preset (nova/zinc/orange).
+- No legacy UI kits: do not use Ant/Chakra/etc in new routes.
 - Keep new routes under `app/<platform-segment>`.
 
 ## Platform structure
